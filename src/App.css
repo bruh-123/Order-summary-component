@@ -1,8 +1,15 @@
 .App {
 	text-align: center;
 }
-.container {
-	background-image: url(./images/pattern-background-desktop.svg);
+@media (min-width: 375px) {
+	.container {
+		background-image: url(./images/pattern-background-mobile.svg);
+	}
+}
+@media (min-width: 1340px) {
+	.container {
+		background-image: url(./images/pattern-background-desktop.svg);
+	}
 }
 
 .App-logo {
