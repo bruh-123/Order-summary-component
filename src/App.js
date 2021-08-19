@@ -1,7 +1,8 @@
 import "./App.css";
+import { Flex } from "@chakra-ui/react";
 
 function App() {
-	return <div className="App"></div>;
+	return <Flex className="container">hello</Flex>;
 }
 
 export default App;
