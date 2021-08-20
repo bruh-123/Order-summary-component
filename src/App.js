@@ -16,7 +16,7 @@ import iconM from "./images/icon-music.svg";
 function App() {
 	console.log(Button);
 	return (
-		<Flex minH="100vh" className="container" justify="center" align="center" >
+		<Flex minH="100vh" className="container" justify="center" align="center">
 			<Flex
 				bg="white"
 				w="355px"
@@ -70,7 +70,7 @@ function App() {
 					h="50px"
 					w="80%"
 					bg="hsl(245, 75%, 52%)"
-					_hover={{bg:"hsl(245, 75%, 45%)"}}
+					_hover={{ bg: "hsl(245, 75%, 45%)" }}
 					color="hsl(225, 100%, 98%)"
 					variant="solid"
 				>
