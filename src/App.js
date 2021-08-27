@@ -27,9 +27,9 @@ function App() {
 				boxShadow="xl"
 			>
 				<Box>
-					<Image borderRadius="20px 20px 0px 0px" src={musik} />
+					<Image borderRadius="20px 20px 0px 0px" src={musik} alt="" />
 				</Box>
-				<Heading m="1rem">Order Summary</Heading>
+				<Heading as="h1" m="1rem">Order Summary</Heading>
 				<Text
 					px="1rem"
 					mb="1rem"
@@ -42,7 +42,7 @@ function App() {
 				</Text>
 				<Box mx="2rem" borderRadius="10px" bg="hsl(225, 100%, 98%)">
 					<HStack>
-						<Image m="1rem" src={iconM} />
+						<Image m="1rem" src={iconM} alt="music icon" />
 						<VStack spacing="1px">
 							<Text fontWeight="700" fontSize="sm">
 								Annual Plan
@@ -73,8 +73,9 @@ function App() {
 					_hover={{ bg: "hsl(245, 75%, 45%)" }}
 					color="hsl(225, 100%, 98%)"
 					variant="solid"
+					fontWeight="700"
 				>
-					<Text fontWeight="700">Proceed to Payment</Text>
+					Proceed to Payment
 				</Button>
 				<Button
 					mb="1.5rem"
@@ -90,18 +91,3 @@ function App() {
 }
 
 export default App;
-// Order Summary
-
-//   You can now listen to millions of songs, audiobooks, and podcasts on any
-//   device anywhere you like!
-
-//   Annual Plan
-//   $59.99/year
-
-//   Change
-
-//   Proceed to Payment
-//   Cancel Order
-
-// Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-//     Coded by <a href="#">Bruno Riquelme</a>.
